@@ -16,6 +16,7 @@
 		3D64CE29240D79CC006ADD2D /* vocabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CE28240D79CC006ADD2D /* vocabUITests.swift */; };
 		3D64CE37240D79FB006ADD2D /* WordsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CE36240D79FB006ADD2D /* WordsTableTableViewController.swift */; };
 		3D64CE39240D7A15006ADD2D /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CE38240D7A15006ADD2D /* DefinitionViewController.swift */; };
+		3D64CE3B240D9705006ADD2D /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CE3A240D9705006ADD2D /* VocabularyWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3D64CE2A240D79CC006ADD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D64CE36240D79FB006ADD2D /* WordsTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableTableViewController.swift; sourceTree = "<group>"; };
 		3D64CE38240D7A15006ADD2D /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		3D64CE3A240D9705006ADD2D /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				3D64CE08240D79CB006ADD2D /* SceneDelegate.swift */,
 				3D64CE0C240D79CB006ADD2D /* Main.storyboard */,
 				3D64CE36240D79FB006ADD2D /* WordsTableTableViewController.swift */,
+				3D64CE3A240D9705006ADD2D /* VocabularyWord.swift */,
 				3D64CE38240D7A15006ADD2D /* DefinitionViewController.swift */,
 				3D64CE0F240D79CB006ADD2D /* Assets.xcassets */,
 				3D64CE11240D79CB006ADD2D /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				3D64CE37240D79FB006ADD2D /* WordsTableTableViewController.swift in Sources */,
 				3D64CE07240D79CB006ADD2D /* AppDelegate.swift in Sources */,
+				3D64CE3B240D9705006ADD2D /* VocabularyWord.swift in Sources */,
 				3D64CE09240D79CB006ADD2D /* SceneDelegate.swift in Sources */,
 				3D64CE39240D7A15006ADD2D /* DefinitionViewController.swift in Sources */,
 			);

@@ -9,6 +9,7 @@
 import UIKit
 
 class DefinitionViewController: UIViewController {
+    var word: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
