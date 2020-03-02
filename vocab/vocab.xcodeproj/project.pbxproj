@@ -7,66 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D64CDC7240D73F7006ADD2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CDC6240D73F7006ADD2D /* AppDelegate.swift */; };
-		3D64CDC9240D73F7006ADD2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CDC8240D73F7006ADD2D /* SceneDelegate.swift */; };
-		3D64CDCB240D73F7006ADD2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CDCA240D73F7006ADD2D /* ContentView.swift */; };
-		3D64CDCD240D73F8006ADD2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D64CDCC240D73F8006ADD2D /* Assets.xcassets */; };
-		3D64CDD0240D73F8006ADD2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D64CDCF240D73F8006ADD2D /* Preview Assets.xcassets */; };
-		3D64CDD3240D73F8006ADD2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D64CDD1240D73F8006ADD2D /* LaunchScreen.storyboard */; };
-		3D64CDDE240D73F8006ADD2D /* vocabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CDDD240D73F8006ADD2D /* vocabTests.swift */; };
-		3D64CDE9240D73F8006ADD2D /* vocabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CDE8240D73F8006ADD2D /* vocabUITests.swift */; };
+		3D64CE07240D79CB006ADD2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CE06240D79CB006ADD2D /* AppDelegate.swift */; };
+		3D64CE09240D79CB006ADD2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CE08240D79CB006ADD2D /* SceneDelegate.swift */; };
+		3D64CE0E240D79CB006ADD2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D64CE0C240D79CB006ADD2D /* Main.storyboard */; };
+		3D64CE10240D79CB006ADD2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D64CE0F240D79CB006ADD2D /* Assets.xcassets */; };
+		3D64CE13240D79CB006ADD2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D64CE11240D79CB006ADD2D /* LaunchScreen.storyboard */; };
+		3D64CE1E240D79CC006ADD2D /* vocabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CE1D240D79CC006ADD2D /* vocabTests.swift */; };
+		3D64CE29240D79CC006ADD2D /* vocabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CE28240D79CC006ADD2D /* vocabUITests.swift */; };
+		3D64CE37240D79FB006ADD2D /* WordsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CE36240D79FB006ADD2D /* WordsTableTableViewController.swift */; };
+		3D64CE39240D7A15006ADD2D /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64CE38240D7A15006ADD2D /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D64CDDA240D73F8006ADD2D /* PBXContainerItemProxy */ = {
+		3D64CE1A240D79CC006ADD2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3D64CDBB240D73F7006ADD2D /* Project object */;
+			containerPortal = 3D64CDFB240D79CB006ADD2D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3D64CDC2240D73F7006ADD2D;
+			remoteGlobalIDString = 3D64CE02240D79CB006ADD2D;
 			remoteInfo = vocab;
 		};
-		3D64CDE5240D73F8006ADD2D /* PBXContainerItemProxy */ = {
+		3D64CE25240D79CC006ADD2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3D64CDBB240D73F7006ADD2D /* Project object */;
+			containerPortal = 3D64CDFB240D79CB006ADD2D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3D64CDC2240D73F7006ADD2D;
+			remoteGlobalIDString = 3D64CE02240D79CB006ADD2D;
 			remoteInfo = vocab;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D64CDC3240D73F7006ADD2D /* vocab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vocab.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D64CDC6240D73F7006ADD2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D64CDC8240D73F7006ADD2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D64CDCA240D73F7006ADD2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3D64CDCC240D73F8006ADD2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D64CDCF240D73F8006ADD2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3D64CDD2240D73F8006ADD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3D64CDD4240D73F8006ADD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D64CDD9240D73F8006ADD2D /* vocabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vocabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D64CDDD240D73F8006ADD2D /* vocabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocabTests.swift; sourceTree = "<group>"; };
-		3D64CDDF240D73F8006ADD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D64CDE4240D73F8006ADD2D /* vocabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vocabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D64CDE8240D73F8006ADD2D /* vocabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocabUITests.swift; sourceTree = "<group>"; };
-		3D64CDEA240D73F8006ADD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D64CE03240D79CB006ADD2D /* vocab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vocab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D64CE06240D79CB006ADD2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D64CE08240D79CB006ADD2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D64CE0D240D79CB006ADD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D64CE0F240D79CB006ADD2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D64CE12240D79CB006ADD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D64CE14240D79CB006ADD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D64CE19240D79CC006ADD2D /* vocabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vocabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D64CE1D240D79CC006ADD2D /* vocabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocabTests.swift; sourceTree = "<group>"; };
+		3D64CE1F240D79CC006ADD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D64CE24240D79CC006ADD2D /* vocabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vocabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D64CE28240D79CC006ADD2D /* vocabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vocabUITests.swift; sourceTree = "<group>"; };
+		3D64CE2A240D79CC006ADD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D64CE36240D79FB006ADD2D /* WordsTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableTableViewController.swift; sourceTree = "<group>"; };
+		3D64CE38240D7A15006ADD2D /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D64CDC0240D73F7006ADD2D /* Frameworks */ = {
+		3D64CE00240D79CB006ADD2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D64CDD6240D73F8006ADD2D /* Frameworks */ = {
+		3D64CE16240D79CC006ADD2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D64CDE1240D73F8006ADD2D /* Frameworks */ = {
+		3D64CE21240D79CC006ADD2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,62 +78,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D64CDBA240D73F7006ADD2D = {
+		3D64CDFA240D79CB006ADD2D = {
 			isa = PBXGroup;
 			children = (
-				3D64CDC5240D73F7006ADD2D /* vocab */,
-				3D64CDDC240D73F8006ADD2D /* vocabTests */,
-				3D64CDE7240D73F8006ADD2D /* vocabUITests */,
-				3D64CDC4240D73F7006ADD2D /* Products */,
+				3D64CE05240D79CB006ADD2D /* vocab */,
+				3D64CE1C240D79CC006ADD2D /* vocabTests */,
+				3D64CE27240D79CC006ADD2D /* vocabUITests */,
+				3D64CE04240D79CB006ADD2D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3D64CDC4240D73F7006ADD2D /* Products */ = {
+		3D64CE04240D79CB006ADD2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D64CDC3240D73F7006ADD2D /* vocab.app */,
-				3D64CDD9240D73F8006ADD2D /* vocabTests.xctest */,
-				3D64CDE4240D73F8006ADD2D /* vocabUITests.xctest */,
+				3D64CE03240D79CB006ADD2D /* vocab.app */,
+				3D64CE19240D79CC006ADD2D /* vocabTests.xctest */,
+				3D64CE24240D79CC006ADD2D /* vocabUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D64CDC5240D73F7006ADD2D /* vocab */ = {
+		3D64CE05240D79CB006ADD2D /* vocab */ = {
 			isa = PBXGroup;
 			children = (
-				3D64CDC6240D73F7006ADD2D /* AppDelegate.swift */,
-				3D64CDC8240D73F7006ADD2D /* SceneDelegate.swift */,
-				3D64CDCA240D73F7006ADD2D /* ContentView.swift */,
-				3D64CDCC240D73F8006ADD2D /* Assets.xcassets */,
-				3D64CDD1240D73F8006ADD2D /* LaunchScreen.storyboard */,
-				3D64CDD4240D73F8006ADD2D /* Info.plist */,
-				3D64CDCE240D73F8006ADD2D /* Preview Content */,
+				3D64CE06240D79CB006ADD2D /* AppDelegate.swift */,
+				3D64CE08240D79CB006ADD2D /* SceneDelegate.swift */,
+				3D64CE0C240D79CB006ADD2D /* Main.storyboard */,
+				3D64CE36240D79FB006ADD2D /* WordsTableTableViewController.swift */,
+				3D64CE38240D7A15006ADD2D /* DefinitionViewController.swift */,
+				3D64CE0F240D79CB006ADD2D /* Assets.xcassets */,
+				3D64CE11240D79CB006ADD2D /* LaunchScreen.storyboard */,
+				3D64CE14240D79CB006ADD2D /* Info.plist */,
 			);
 			path = vocab;
 			sourceTree = "<group>";
 		};
-		3D64CDCE240D73F8006ADD2D /* Preview Content */ = {
+		3D64CE1C240D79CC006ADD2D /* vocabTests */ = {
 			isa = PBXGroup;
 			children = (
-				3D64CDCF240D73F8006ADD2D /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		3D64CDDC240D73F8006ADD2D /* vocabTests */ = {
-			isa = PBXGroup;
-			children = (
-				3D64CDDD240D73F8006ADD2D /* vocabTests.swift */,
-				3D64CDDF240D73F8006ADD2D /* Info.plist */,
+				3D64CE1D240D79CC006ADD2D /* vocabTests.swift */,
+				3D64CE1F240D79CC006ADD2D /* Info.plist */,
 			);
 			path = vocabTests;
 			sourceTree = "<group>";
 		};
-		3D64CDE7240D73F8006ADD2D /* vocabUITests */ = {
+		3D64CE27240D79CC006ADD2D /* vocabUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3D64CDE8240D73F8006ADD2D /* vocabUITests.swift */,
-				3D64CDEA240D73F8006ADD2D /* Info.plist */,
+				3D64CE28240D79CC006ADD2D /* vocabUITests.swift */,
+				3D64CE2A240D79CC006ADD2D /* Info.plist */,
 			);
 			path = vocabUITests;
 			sourceTree = "<group>";
@@ -139,13 +134,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D64CDC2240D73F7006ADD2D /* vocab */ = {
+		3D64CE02240D79CB006ADD2D /* vocab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D64CDED240D73F8006ADD2D /* Build configuration list for PBXNativeTarget "vocab" */;
+			buildConfigurationList = 3D64CE2D240D79CC006ADD2D /* Build configuration list for PBXNativeTarget "vocab" */;
 			buildPhases = (
-				3D64CDBF240D73F7006ADD2D /* Sources */,
-				3D64CDC0240D73F7006ADD2D /* Frameworks */,
-				3D64CDC1240D73F7006ADD2D /* Resources */,
+				3D64CDFF240D79CB006ADD2D /* Sources */,
+				3D64CE00240D79CB006ADD2D /* Frameworks */,
+				3D64CE01240D79CB006ADD2D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,69 +148,69 @@
 			);
 			name = vocab;
 			productName = vocab;
-			productReference = 3D64CDC3240D73F7006ADD2D /* vocab.app */;
+			productReference = 3D64CE03240D79CB006ADD2D /* vocab.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3D64CDD8240D73F8006ADD2D /* vocabTests */ = {
+		3D64CE18240D79CC006ADD2D /* vocabTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D64CDF0240D73F8006ADD2D /* Build configuration list for PBXNativeTarget "vocabTests" */;
+			buildConfigurationList = 3D64CE30240D79CC006ADD2D /* Build configuration list for PBXNativeTarget "vocabTests" */;
 			buildPhases = (
-				3D64CDD5240D73F8006ADD2D /* Sources */,
-				3D64CDD6240D73F8006ADD2D /* Frameworks */,
-				3D64CDD7240D73F8006ADD2D /* Resources */,
+				3D64CE15240D79CC006ADD2D /* Sources */,
+				3D64CE16240D79CC006ADD2D /* Frameworks */,
+				3D64CE17240D79CC006ADD2D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3D64CDDB240D73F8006ADD2D /* PBXTargetDependency */,
+				3D64CE1B240D79CC006ADD2D /* PBXTargetDependency */,
 			);
 			name = vocabTests;
 			productName = vocabTests;
-			productReference = 3D64CDD9240D73F8006ADD2D /* vocabTests.xctest */;
+			productReference = 3D64CE19240D79CC006ADD2D /* vocabTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3D64CDE3240D73F8006ADD2D /* vocabUITests */ = {
+		3D64CE23240D79CC006ADD2D /* vocabUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D64CDF3240D73F8006ADD2D /* Build configuration list for PBXNativeTarget "vocabUITests" */;
+			buildConfigurationList = 3D64CE33240D79CC006ADD2D /* Build configuration list for PBXNativeTarget "vocabUITests" */;
 			buildPhases = (
-				3D64CDE0240D73F8006ADD2D /* Sources */,
-				3D64CDE1240D73F8006ADD2D /* Frameworks */,
-				3D64CDE2240D73F8006ADD2D /* Resources */,
+				3D64CE20240D79CC006ADD2D /* Sources */,
+				3D64CE21240D79CC006ADD2D /* Frameworks */,
+				3D64CE22240D79CC006ADD2D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3D64CDE6240D73F8006ADD2D /* PBXTargetDependency */,
+				3D64CE26240D79CC006ADD2D /* PBXTargetDependency */,
 			);
 			name = vocabUITests;
 			productName = vocabUITests;
-			productReference = 3D64CDE4240D73F8006ADD2D /* vocabUITests.xctest */;
+			productReference = 3D64CE24240D79CC006ADD2D /* vocabUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3D64CDBB240D73F7006ADD2D /* Project object */ = {
+		3D64CDFB240D79CB006ADD2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "William Schwindt";
 				TargetAttributes = {
-					3D64CDC2240D73F7006ADD2D = {
+					3D64CE02240D79CB006ADD2D = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					3D64CDD8240D73F8006ADD2D = {
+					3D64CE18240D79CC006ADD2D = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 3D64CDC2240D73F7006ADD2D;
+						TestTargetID = 3D64CE02240D79CB006ADD2D;
 					};
-					3D64CDE3240D73F8006ADD2D = {
+					3D64CE23240D79CC006ADD2D = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 3D64CDC2240D73F7006ADD2D;
+						TestTargetID = 3D64CE02240D79CB006ADD2D;
 					};
 				};
 			};
-			buildConfigurationList = 3D64CDBE240D73F7006ADD2D /* Build configuration list for PBXProject "vocab" */;
+			buildConfigurationList = 3D64CDFE240D79CB006ADD2D /* Build configuration list for PBXProject "vocab" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,37 +218,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 3D64CDBA240D73F7006ADD2D;
-			productRefGroup = 3D64CDC4240D73F7006ADD2D /* Products */;
+			mainGroup = 3D64CDFA240D79CB006ADD2D;
+			productRefGroup = 3D64CE04240D79CB006ADD2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D64CDC2240D73F7006ADD2D /* vocab */,
-				3D64CDD8240D73F8006ADD2D /* vocabTests */,
-				3D64CDE3240D73F8006ADD2D /* vocabUITests */,
+				3D64CE02240D79CB006ADD2D /* vocab */,
+				3D64CE18240D79CC006ADD2D /* vocabTests */,
+				3D64CE23240D79CC006ADD2D /* vocabUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D64CDC1240D73F7006ADD2D /* Resources */ = {
+		3D64CE01240D79CB006ADD2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D64CDD3240D73F8006ADD2D /* LaunchScreen.storyboard in Resources */,
-				3D64CDD0240D73F8006ADD2D /* Preview Assets.xcassets in Resources */,
-				3D64CDCD240D73F8006ADD2D /* Assets.xcassets in Resources */,
+				3D64CE13240D79CB006ADD2D /* LaunchScreen.storyboard in Resources */,
+				3D64CE10240D79CB006ADD2D /* Assets.xcassets in Resources */,
+				3D64CE0E240D79CB006ADD2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D64CDD7240D73F8006ADD2D /* Resources */ = {
+		3D64CE17240D79CC006ADD2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D64CDE2240D73F8006ADD2D /* Resources */ = {
+		3D64CE22240D79CC006ADD2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,52 +258,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3D64CDBF240D73F7006ADD2D /* Sources */ = {
+		3D64CDFF240D79CB006ADD2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D64CDC7240D73F7006ADD2D /* AppDelegate.swift in Sources */,
-				3D64CDC9240D73F7006ADD2D /* SceneDelegate.swift in Sources */,
-				3D64CDCB240D73F7006ADD2D /* ContentView.swift in Sources */,
+				3D64CE37240D79FB006ADD2D /* WordsTableTableViewController.swift in Sources */,
+				3D64CE07240D79CB006ADD2D /* AppDelegate.swift in Sources */,
+				3D64CE09240D79CB006ADD2D /* SceneDelegate.swift in Sources */,
+				3D64CE39240D7A15006ADD2D /* DefinitionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D64CDD5240D73F8006ADD2D /* Sources */ = {
+		3D64CE15240D79CC006ADD2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D64CDDE240D73F8006ADD2D /* vocabTests.swift in Sources */,
+				3D64CE1E240D79CC006ADD2D /* vocabTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D64CDE0240D73F8006ADD2D /* Sources */ = {
+		3D64CE20240D79CC006ADD2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D64CDE9240D73F8006ADD2D /* vocabUITests.swift in Sources */,
+				3D64CE29240D79CC006ADD2D /* vocabUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3D64CDDB240D73F8006ADD2D /* PBXTargetDependency */ = {
+		3D64CE1B240D79CC006ADD2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D64CDC2240D73F7006ADD2D /* vocab */;
-			targetProxy = 3D64CDDA240D73F8006ADD2D /* PBXContainerItemProxy */;
+			target = 3D64CE02240D79CB006ADD2D /* vocab */;
+			targetProxy = 3D64CE1A240D79CC006ADD2D /* PBXContainerItemProxy */;
 		};
-		3D64CDE6240D73F8006ADD2D /* PBXTargetDependency */ = {
+		3D64CE26240D79CC006ADD2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D64CDC2240D73F7006ADD2D /* vocab */;
-			targetProxy = 3D64CDE5240D73F8006ADD2D /* PBXContainerItemProxy */;
+			target = 3D64CE02240D79CB006ADD2D /* vocab */;
+			targetProxy = 3D64CE25240D79CC006ADD2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3D64CDD1240D73F8006ADD2D /* LaunchScreen.storyboard */ = {
+		3D64CE0C240D79CB006ADD2D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3D64CDD2240D73F8006ADD2D /* Base */,
+				3D64CE0D240D79CB006ADD2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D64CE11240D79CB006ADD2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D64CE12240D79CB006ADD2D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3D64CDEB240D73F8006ADD2D /* Debug */ = {
+		3D64CE2B240D79CC006ADD2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		3D64CDEC240D73F8006ADD2D /* Release */ = {
+		3D64CE2C240D79CC006ADD2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,13 +434,11 @@
 			};
 			name = Release;
 		};
-		3D64CDEE240D73F8006ADD2D /* Debug */ = {
+		3D64CE2E240D79CC006ADD2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"vocab/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = vocab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,13 +451,11 @@
 			};
 			name = Debug;
 		};
-		3D64CDEF240D73F8006ADD2D /* Release */ = {
+		3D64CE2F240D79CC006ADD2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"vocab/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = vocab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,7 +468,7 @@
 			};
 			name = Release;
 		};
-		3D64CDF1240D73F8006ADD2D /* Debug */ = {
+		3D64CE31240D79CC006ADD2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -489,7 +489,7 @@
 			};
 			name = Debug;
 		};
-		3D64CDF2240D73F8006ADD2D /* Release */ = {
+		3D64CE32240D79CC006ADD2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -510,7 +510,7 @@
 			};
 			name = Release;
 		};
-		3D64CDF4240D73F8006ADD2D /* Debug */ = {
+		3D64CE34240D79CC006ADD2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,7 +529,7 @@
 			};
 			name = Debug;
 		};
-		3D64CDF5240D73F8006ADD2D /* Release */ = {
+		3D64CE35240D79CC006ADD2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -551,43 +551,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D64CDBE240D73F7006ADD2D /* Build configuration list for PBXProject "vocab" */ = {
+		3D64CDFE240D79CB006ADD2D /* Build configuration list for PBXProject "vocab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D64CDEB240D73F8006ADD2D /* Debug */,
-				3D64CDEC240D73F8006ADD2D /* Release */,
+				3D64CE2B240D79CC006ADD2D /* Debug */,
+				3D64CE2C240D79CC006ADD2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D64CDED240D73F8006ADD2D /* Build configuration list for PBXNativeTarget "vocab" */ = {
+		3D64CE2D240D79CC006ADD2D /* Build configuration list for PBXNativeTarget "vocab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D64CDEE240D73F8006ADD2D /* Debug */,
-				3D64CDEF240D73F8006ADD2D /* Release */,
+				3D64CE2E240D79CC006ADD2D /* Debug */,
+				3D64CE2F240D79CC006ADD2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D64CDF0240D73F8006ADD2D /* Build configuration list for PBXNativeTarget "vocabTests" */ = {
+		3D64CE30240D79CC006ADD2D /* Build configuration list for PBXNativeTarget "vocabTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D64CDF1240D73F8006ADD2D /* Debug */,
-				3D64CDF2240D73F8006ADD2D /* Release */,
+				3D64CE31240D79CC006ADD2D /* Debug */,
+				3D64CE32240D79CC006ADD2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D64CDF3240D73F8006ADD2D /* Build configuration list for PBXNativeTarget "vocabUITests" */ = {
+		3D64CE33240D79CC006ADD2D /* Build configuration list for PBXNativeTarget "vocabUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D64CDF4240D73F8006ADD2D /* Debug */,
-				3D64CDF5240D73F8006ADD2D /* Release */,
+				3D64CE34240D79CC006ADD2D /* Debug */,
+				3D64CE35240D79CC006ADD2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3D64CDBB240D73F7006ADD2D /* Project object */;
+	rootObject = 3D64CDFB240D79CB006ADD2D /* Project object */;
 }
